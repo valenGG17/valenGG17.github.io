@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Zinguería Z-1</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
 <style>
 body {
   font-family: 'Segoe UI', sans-serif;
@@ -33,6 +34,13 @@ body {
   color: transparent;
 }
 
+/* 👇 LOGO MEJORADO */
+.logo {
+  max-width: 380px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
 /* TARJETAS */
 .card {
   border-radius: 15px;
@@ -55,14 +63,13 @@ body {
   padding: 15px;
 }
 
-/* 👇 NUEVO: FONDO BLANCO PARA TEXTO */
+/* FONDO BLANCO PARA TEXTO */
 .card-body {
   background: white;
   border-radius: 0 0 15px 15px;
   padding: 15px;
 }
 
-/* TEXTO MÁS LEGIBLE */
 .card-body h5 {
   color: #222;
   font-weight: bold;
@@ -84,12 +91,16 @@ body {
 }
 </style>
 </head>
+
 <body>
 
 <!-- HERO -->
 <section class="hero">
   <div class="container text-center">
-    <img src="logo.png" class="me-2" style="height:250px;">
+    
+    <!-- 👇 LOGO CORREGIDO -->
+    <img src="img/logo.png" alt="Logo Zinguería" class="logo">
+    
     <h1>Zinguería Profesional</h1>
     <p>Mi Nombre es Jorge Harrison y hago Fabricación de tubos, canaletas y estructuras de chapa</p>
     <p>Se aceptan encargos, contactar a este número de WhatsApp</p>
@@ -102,7 +113,6 @@ body {
   <h2 class="text-center mb-4 text-white">Nuestros Productos</h2>
   <div class="row justify-content-center g-4">
     
-    <!-- PRODUCTO 1 -->
     <div class="col-md-6">
       <div class="card h-100">
         <img src="cumbrerasetc.jpg" class="card-img-top">
@@ -113,7 +123,6 @@ body {
       </div>
     </div>
 
-    <!-- PRODUCTO 2 -->
     <div class="col-md-6">
       <div class="card h-100">
         <img src="bomba centrifuga.jpg" class="card-img-top">
@@ -124,7 +133,6 @@ body {
       </div>
     </div>
 
-    <!-- PRODUCTO 3 -->
     <div class="col-md-6">
       <div class="card h-100">
         <img src="caños.jpg" class="card-img-top">
@@ -135,7 +143,6 @@ body {
       </div>
     </div>
 
-    <!-- PRODUCTO 4 -->
     <div class="col-md-6">
       <div class="card h-100">
         <img src="cpm.jpg" class="card-img-top">
@@ -148,8 +155,6 @@ body {
 
   </div>
 </section>
-
-
 
 <!-- CONTACTO -->
 <section id="contacto" class="text-center py-5 text-white">
