@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zinguería Z-1</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<style>
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+}
+
+/* HERO */
+.hero {
+  padding: 40px 20px;
+  min-height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+              url('https://via.placeholder.com/1200x500');
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 2.3rem;
+  font-weight: bold;
+  background: linear-gradient(45deg, #ffcc00, #ff6600);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+/* TARJETAS */
+.card {
+  border-radius: 15px;
+  overflow: hidden;
+  transition: 0.3s;
+  border: none;
+  background: transparent;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  width: 100%;
+  height: 300px;
+  object-fit: contain;
+  background-color: transparent;
+  padding: 15px;
+}
+
+/* 👇 NUEVO: FONDO BLANCO PARA TEXTO */
+.card-body {
+  background: white;
+  border-radius: 0 0 15px 15px;
+  padding: 15px;
+}
+
+/* TEXTO MÁS LEGIBLE */
+.card-body h5 {
+  color: #222;
+  font-weight: bold;
+}
+
+.card-body p {
+  color: #555;
+}
+
+/* BOTON INSTAGRAM */
+.btn-instagram {
+  background: linear-gradient(45deg, #feda75, #d62976, #962fbf);
+  color: white;
+  border: none;
+}
+
+.btn-instagram:hover {
+  opacity: 0.8;
+}
+</style>
+</head>
+<body>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container text-center">
+    <img src="logo.png" class="me-2" style="height:250px;">
+    <h1>Zinguería Profesional</h1>
+    <p>Mi Nombre es Jorge Harrison y hago Fabricación de tubos, canaletas y estructuras de chapa</p>
+    <p>Se aceptan encargos, contactar a este número de WhatsApp</p>
+    <a href="https://wa.me/5491164792717" class="btn btn-success">WhatsApp</a>
+  </div>
+</section>
+
+<!-- PRODUCTOS -->
+<section id="productos" class="container py-5">
+  <h2 class="text-center mb-4 text-white">Nuestros Productos</h2>
+  <div class="row justify-content-center g-4">
+    
+    <!-- PRODUCTO 1 -->
+    <div class="col-md-6">
+      <div class="card h-100">
+        <img src="cumbrerasetc.jpg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5>Canaletas</h5>
+          <p>Cumbreras, babetas, nervios, canaletas bajo teja, chapa y galponeras</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- PRODUCTO 2 -->
+    <div class="col-md-6">
+      <div class="card h-100">
+        <img src="bomba centrifuga.jpg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5>Capot para bomba centrifuga</h5>
+          <p>Diferentes medidas</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- PRODUCTO 3 -->
+    <div class="col-md-6">
+      <div class="card h-100">
+        <img src="caños.jpg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5>Caño para bajada de canaletas</h5>
+          <p>2x4, 3x4, 4 pulgadas y a medida</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- PRODUCTO 4 -->
+    <div class="col-md-6">
+      <div class="card h-100">
+        <img src="cpm.jpg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5>Caños para parrilla y sombreros</h5>
+          <p>A medida</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+<!-- CONTACTO -->
+<section id="contacto" class="text-center py-5 text-white">
+  <h2>Contactame en Instagram o WhatsApp para conocer el precio y tiempo de los encargos.</h2>
+  <p>Seguime en mis redes y escribime directamente</p>
+  <a href="https://instagram.com/zingueria.z1" target="_blank" class="btn btn-instagram m-2">
+    Instagram
+  </a>
+  <a href="https://wa.me/5491164792717" class="btn btn-success m-2">
+    WhatsApp
+  </a>
+</section>
+
+<footer class="bg-dark text-white text-center p-3">
+  © 2026 Zinguería Z-1 - Todos los derechos reservados
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
